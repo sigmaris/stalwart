@@ -35,6 +35,9 @@ members = [
 [workspace.lints.clippy]
 result_unit_err = "allow"
 
+[patch.crates-io]
+rust-s3 = { git = "https://github.com/w4nderlust/rust-s3.git", rev = "2936eb7e856655a4a49a65377e3cdb59e29fea71" }
+
 [profile.dev]
 opt-level = 0
 debug = 1
